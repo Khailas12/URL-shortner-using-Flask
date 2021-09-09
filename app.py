@@ -32,7 +32,6 @@ class Urls(db.Model):
         self.short = short
         
         
-
 def shorten_url():  
     letters = string.ascii_lowercase + string.ascii_uppercase
     while True:
